@@ -4,7 +4,7 @@ from __future__ import absolute_import, division, print_function, unicode_litera
 import sys
 
 #excel读写操作
-from openpyxl import Workbook
+# from openpyxl import Workbook
 from settings.settings import SHEET_NAME, SAVE_FILE_NAME
 
 #初始化环境

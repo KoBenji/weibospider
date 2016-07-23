@@ -85,9 +85,9 @@ def get_weibo_by_ids(m_ids, session):
 
 #根据地理坐标进行批量获取微博
 def get_weibo_by_coordinate(session, coordinate, starttime, endtime, range=2000, sort=0, count=20, page=1, offset=0):
-    if log_date.log_date.year != datetime.datetime.now():
-        log_date.change_log_date()
-        init_log()
+    # if log_date.log_date.year != datetime.datetime.now():
+    #     log_date.change_log_date()
+    #     init_log()
     num = 0
     pd_403 = [0] * len(APP_SOURCE_LIST)
     end_403 = [1] * len(APP_SOURCE_LIST)

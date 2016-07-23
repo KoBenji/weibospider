@@ -8,8 +8,8 @@ from official.weibo_api import short_to_long
 from lib.log import lg_debug, lg_info, lg_warning
 
 #excel读写操作
-from openpyxl import load_workbook
-from openpyxl.writer.excel import ExcelWriter
+# from openpyxl import load_workbook
+# from openpyxl.writer.excel import ExcelWriter
 
 from settings.settings import SAVE_FILE_NAME, SHEET_NAME, MONGO_DB
 

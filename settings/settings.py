@@ -5,8 +5,11 @@ __author__ = 'gpxlcj'
 基本信息
 '''
 #微博登陆信息
-USERNAME = 'g@g.com'
-PASSWORD = 'gg12345'
+# USERNAME = 'g@g.com'
+# PASSWORD = 'gg12345'
+USERNAME = 'benjamin.yuan@citizenpace.com'
+PASSWORD = 'yuanbin12'
+
 
 #微博API信息
 APP_SOURCE = ''
@@ -56,7 +59,7 @@ INTER_HOUR = 0
 根据地理位置爬取配置
 '''
 #搜索的地理位置中心
-QUERY_COORDINATE_LIST = [
+QUERY_COORDINATE_LIST = [ [31.149652, 121.491819]
 ]
 
 DISTANCE = 2000

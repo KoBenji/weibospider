@@ -15,7 +15,7 @@ import requests
 import logging
 
 #excel读写操作
-from openpyxl import Workbook, load_workbook
+# from openpyxl import Workbook, load_workbook
 from lib.log import lg_info, lg_warning, lg_debug, init_log
 from lib.lib_func import wait_time
 
